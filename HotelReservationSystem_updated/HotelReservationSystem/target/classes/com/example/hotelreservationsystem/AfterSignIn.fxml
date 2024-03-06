@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hotelreservationsystem.AfterSignInController">
+   <children>
+      <ImageView fitHeight="412.0" fitWidth="619.0" layoutY="-4.0">
+         <image>
+            <Image url="@../../../images/beach.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="55.0" prefWidth="618.0" style="-fx-background-color: #0099FF; -fx-border-color: black;">
+         <children>
+            <Button layoutX="45.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#openHomePage" style="-fx-background-color: #0099FF;" text="HOME">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="242.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#openRoomPackagesPage" style="-fx-background-color: #0099FF;" text=" Room &amp; Packages">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="PackagesButton" layoutX="447.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#openPaymentPage" style="-fx-background-color: #0099FF;" text="Payment">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="BookingButton" layoutX="378.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#openBookingPage" style="-fx-background-color: #0099FF;" text="Booking">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="538.0" layoutY="11.0" mnemonicParsing="false" onMouseClicked="#openSignOutPage" style="-fx-background-color: #0099FF;" text="SignOut">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="AboutUsButton" layoutX="170.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#openAboutUsPage" style="-fx-background-color: #0099FF;" text="About us">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="29.0" fitWidth="30.0" layoutX="14.0" layoutY="10.0">
+               <image>
+                  <Image url="@../../../images/logo2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="298.0" opacity="0.9" prefHeight="77.0" prefWidth="549.0" style="-fx-background-color: #D6EAF8;">
+         <children>
+            <Button fx:id="CheckOutButton" layoutX="147.0" layoutY="22.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="105.0" style="-fx-background-color: #66FFFF; -fx-border-color: black;" text="CHECK OUT">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="CancelButton" layoutX="281.0" layoutY="22.0" mnemonicParsing="false" onMouseClicked="#openCancelBookingPage" prefHeight="0.0" prefWidth="123.0" style="-fx-background-color: #66FFFF; -fx-border-color: black;" text="Cancel Booking">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="GuestButton" layoutX="427.0" layoutY="22.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="105.0" style="-fx-background-color: #66FFFF; -fx-border-color: black;" text="Guests">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="CheckInButton" layoutX="14.0" layoutY="22.0" mnemonicParsing="false" onMouseClicked="#openBookingPage" prefHeight="10.0" prefWidth="105.0" style="-fx-background-color: #66FFFF; -fx-border-color: black;" text="CHECK IN">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="146.0" fitWidth="157.0" layoutX="212.0" layoutY="58.0">
+         <image>
+            <Image url="@../../../images/logo2.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="99.0" layoutY="212.0" opacity="0.7" prefHeight="65.0" prefWidth="383.0" style="-fx-background-color: black;">
+         <children>
+            <Text fill="WHITE" layoutX="141.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Velvet Vista Hotel">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="84.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Suite 373 376 Pilar Locks, South Rogerchester, MD 64503-4589" wrappingWidth="215.3490982055664">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="395.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hotelreservationsystem.AboutUsController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="602.0">
+         <image>
+            <Image url="@../../../images/beach.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="123.0" layoutY="42.0" opacity="0.9" prefHeight="344.0" prefWidth="368.0" style="-fx-background-color: #CCFFFF; -fx-border-color: #0000FF;">
+         <children>
+            <ImageView fitHeight="97.0" fitWidth="92.0" layoutX="129.0" layoutY="7.0">
+               <image>
+                  <Image url="@../../../images/logo2.png" />
+               </image>
+            </ImageView>
+            <TextArea disable="true" layoutX="4.0" layoutY="137.0" opacity="0.85" prefHeight="203.0" prefWidth="359.0" style="-fx-background-color: #0099FF;" text="Velvet Vista is a renowned establishment that aims&#10;to provide the best hotel experience for our valuable&#10;customers.&#10;We have many exiciting packages and facilities to cater&#10;to each and everyones' wants and needs.&#10;Glad for having you,our valuable customers here in &#10;Velvet Vista Hotel and thank you.&#10;Have an amazing journey with us!&#10;&#10;Reach us out through: velevt@vistahotel.com&#10;">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </TextArea>
+            <Text layoutX="124.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About Us" underline="true">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="36.0" prefWidth="602.0" style="-fx-background-color: #0099FF; -fx-border-color: black;">
+         <children>
+            <Button layoutX="39.0" layoutY="6.0" mnemonicParsing="false" onMouseClicked="#openHomePage" style="-fx-background-color: #0099FF;" text="HOME">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="263.0" layoutY="6.0" mnemonicParsing="false" onMouseClicked="#openRoomPackagesPage" style="-fx-background-color: #0099FF;" text="Room &amp; Packages">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="461.0" layoutY="6.0" mnemonicParsing="false" onMouseClicked="#openPaymentPage" style="-fx-background-color: #0099FF;" text="Payment">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="393.0" layoutY="6.0" mnemonicParsing="false" onMouseClicked="#openBookingPage" style="-fx-background-color: #0099FF;" text="Booking">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="534.0" layoutY="7.0" mnemonicParsing="false" onMouseClicked="#openSignOutPage" style="-fx-background-color: #0099FF;" text="SignOut">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="AboutUsButton" layoutX="192.0" layoutY="6.0" mnemonicParsing="false" onMouseClicked="#openAboutUsPage" style="-fx-background-color: #0099FF;" text="About us">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="25.0" fitWidth="21.0" layoutX="14.0" layoutY="8.0">
+               <image>
+                  <Image url="@../../../images/logo2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
